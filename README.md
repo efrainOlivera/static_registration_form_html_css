@@ -1,0 +1,1 @@
+# static_registration_form_html_css

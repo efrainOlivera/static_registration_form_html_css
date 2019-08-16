@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>registration</title>
+	<link rel="stylesheet" type="text/css" href="regis.css">
+</head>
+<body>
+	<div class="container">
+		<h1> My Registration Form</h1>
+		<div class="input">
+			<div>
+				<label for="FirstName">First name</label>
+				<input type="text" id="FirstName" name="First_name">
+			</div>
+			<div>
+				<label for="LastName">Last name</label>
+				<input type="text" id="LastName" name="Last_name">
+			</div>
+			<div>
+				<label for="email">email</label>
+				<input type="text" id="email" name="email">
+			</div>
+			<div>
+				<label for="password">password</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div>
+				<label for="PWConfirm">PW confirm</label>
+				<input type="password" id="PWConfirm" name="password">
+			</div>
+			<div>
+				<label for="Birthday">Birdthday</label>
+				<input type="date" id="Birthday" name="Birdthday">
+			</div>
+		</div>
+		<div class="moreInput">	
+			<label class="one">Name
+	  			<input type="radio" checked="checked" name="radio">
+	 			<span class="checkmark"></span>
+			</label>
+			<label class="one">Female
+	  			<input type="radio" checked="checked" name="radio">
+	 			<span class="checkmark"></span>
+			</label>
+			<label class="one">Other
+	  			<input type="radio" checked="checked" name="radio">
+	 			<span class="checkmark"></span>
+			</label>
+			<p>A short description about yourself:</p>
+			<div>
+				<textarea name="description"></textarea>
+			</div>
+		</div>
+			<form>
+				Favorite language
+				<select>
+					<option value="">JavaScript</option>
+					<option value="">Phyton</option>
+					<option value="">Ruby</option>
+				</select>
+			</form>
+			<input class="button" type="submit" name="submit">
+		</div>
+</body>
+</html>
